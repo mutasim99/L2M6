@@ -11,6 +11,7 @@ type ReachPeopleVehicle = {
     bike: string;
     car: string;
     ship: string;
+    airplane:string;
 };
 
 type CheckType<T> = T extends keyof ReachPeopleVehicle ? true : false;
